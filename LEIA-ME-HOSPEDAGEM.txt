@@ -1,0 +1,26 @@
+X1 FIBRA — VERSÃO SEM FORMULÁRIO
+=================================
+
+ESTRUTURA
+- index.html
+- assets/images/
+- manifest.json
+- VALIDACAO.txt
+
+COMO PUBLICAR
+1. Abra a pasta pública do domínio ou subdomínio na hospedagem.
+   Exemplos: public_html, www, htdocs ou a pasta do subdomínio.
+2. Envie TODO o conteúdo deste pacote, mantendo a pasta assets.
+3. Acesse o domínio e atualize a página com Ctrl + F5.
+
+FUNCIONAMENTO
+- Esta versão não possui formulário nem página de obrigado.
+- Todos os botões de chamada para ação direcionam para o WhatsApp da X1 Fibra.
+- O bloco final também possui um botão direto para o WhatsApp.
+- O conteúdo do header, hero, seções internas e footer está limitado a 1200px.
+- Os caminhos são relativos, permitindo publicação na raiz ou em uma subpasta.
+- Não são necessários PHP, banco de dados ou bibliotecas externas.
+
+PONTOS PARA PERSONALIZAR DEPOIS
+- O link “Instagram” ainda usa # e deve ser substituído pela URL oficial.
+- O link “Política de Privacidade e LGPD” ainda usa # e deve receber a página ou URL correta.
