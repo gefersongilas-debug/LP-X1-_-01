@@ -1,16 +1,10 @@
-VALIDAÇÃO — X1 FIBRA V05
+VALIDAÇÃO DA VERSÃO V12
 
-- Imagens originais da versão anterior restauradas:
-  hero-conexao.jpg, gamer.jpg, casa-conectada.jpg e atendimento.jpg.
-- Logo oficial mantida no loader, cabeçalho, rodapé e como marca d'água na chamada final.
-- Ícone oficial do WhatsApp mantido no botão flutuante.
-- Animações de carregamento e entrada mantidas.
-- Copy revisada seção por seção e ajustada para corresponder ao texto fornecido.
-- Corrigido no plano de 900 MB: “Indicado para casas com muitos dispositivos”.
-- Restaurados os trechos completos das seções “Muito mais do que internet”, “Presença regional” e “Atendimento”.
-- Removidos textos promocionais adicionais que não faziam parte da copy principal.
-
-PENDÊNCIAS ANTES DA PUBLICAÇÃO
-- Substituir 5500000000000 pelo WhatsApp oficial.
-- Validar o selo “Mais escolhido”.
-- Confirmar valores dos planos 500 MB, 700 MB e 900 MB.
+[OK] CSS apontando para /Internet/assets/style.css
+[OK] JavaScript apontando para /Internet/assets/script.js
+[OK] Imagens e logo apontando para /Internet/assets/
+[OK] Compatível com URL /Internet sem barra final
+[OK] Compatível com URL /Internet/ com barra final
+[OK] Links internos por âncora preservados
+[OK] Links do WhatsApp preservados
+[OK] Layout e conteúdo visual preservados

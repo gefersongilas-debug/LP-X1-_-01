@@ -1,8 +1,23 @@
-X1 FIBRA — V05
+X1 FIBRA — PÁGINA INTERNA /Internet
 
-Para publicar, envie o conteúdo desta pasta para a pasta pública da hospedagem.
-Mantenha index.html e a pasta assets no mesmo nível.
+AJUSTE REALIZADO:
+Os caminhos do CSS, JavaScript, logo e imagens foram corrigidos para funcionarem tanto em:
+https://seu-dominio.com.br/Internet
+quanto em:
+https://seu-dominio.com.br/Internet/
 
-Antes da publicação, ajuste no index.html:
-1. WhatsApp oficial no lugar de 5500000000000.
-3. Valores pendentes e validação do selo “Mais escolhido”.
+COMO PUBLICAR:
+1. Abra a pasta pública do domínio.
+2. Crie ou abra a pasta chamada Internet (com I maiúsculo).
+3. Envie para dentro dela o index.html e a pasta assets deste pacote.
+4. Substitua os arquivos antigos.
+
+Estrutura esperada:
+/Internet/index.html
+/Internet/assets/style.css
+/Internet/assets/script.js
+/Internet/assets/logo-x1.svg
+/Internet/assets/hero-conexao.jpg
+/Internet/assets/casa-conectada.jpg
+/Internet/assets/atendimento.jpg
+/Internet/assets/gamer.jpg
