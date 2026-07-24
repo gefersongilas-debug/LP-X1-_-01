@@ -1,0 +1,13 @@
+VALIDAÇÃO DO PACOTE X1 FIBRA — V4 SEM FORMULÁRIO
+
+[OK] Página principal: index.html
+[OK] Largura máxima do conteúdo: 1200px
+[OK] Formulário removido
+[OK] Página e pasta de obrigado removidas
+[OK] Redirecionamento para página de obrigado removido
+[OK] Todos os elementos com classe de botão apontam para wa.me
+[OK] Botão flutuante aponta para o WhatsApp
+[OK] Assets locais encontrados
+[OK] Estrutura compatível com raiz de domínio ou subpasta
+
+AJUSTE V5: frase final mantém "sua internet." na mesma linha.

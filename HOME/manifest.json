@@ -1,0 +1,30 @@
+{
+  "entrypoint": "index.html",
+  "version": "v4-sem-formulario",
+  "content_max_width": "1200px",
+  "assets_dir": "assets/images",
+  "has_form": false,
+  "has_thank_you_page": false,
+  "cta_behavior": "all_buttons_open_whatsapp",
+  "whatsapp_number": "558331429609",
+  "files": [
+    "LEIA-ME-HOSPEDAGEM.txt",
+    "VALIDACAO.txt",
+    "assets/images/background-site.png",
+    "assets/images/filmes-series-canais.png",
+    "assets/images/hero-background-legado.png",
+    "assets/images/hero-x1-fibra.png",
+    "assets/images/icone-atendimento.svg",
+    "assets/images/icone-conexao.svg",
+    "assets/images/icone-instalacao.svg",
+    "assets/images/icone-localizacao.svg",
+    "assets/images/icone-whatsapp.svg",
+    "assets/images/logo-x1-fibra.svg",
+    "assets/images/sobre-x1-fibra.png",
+    "assets/images/streaming.png",
+    "assets/images/suporte-local.png",
+    "assets/images/wifi-familia.png",
+    "index.html",
+    "manifest.json"
+  ]
+}

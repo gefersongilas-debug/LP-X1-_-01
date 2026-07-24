@@ -1,0 +1,3480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5QJHDW6P');</script>
+<!-- End Google Tag Manager -->
+  <!-- Pacote preparado para hospedagem: assets externos e caminhos relativos. -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X1 Fibra | 300 Mega + Watch incluso</title>
+  <meta name="description" content="X1 Fibra: 300 Mega de internet fibra + App canais de TV incluso por R$59,90/mês." />
+
+  <style>
+    :root {
+      --roxo-principal: #7B2FFF;
+      --amarelo-preco: #FFD600;
+      --preto-fundo: #0A0A12;
+      --roxo-dark: #3D1A8C;
+      --roxo-claro: #A855F7;
+      --branco: #FFFFFF;
+      --verde-desconto: #4ADE80;
+      --cinza-info: #8B8B9E;
+
+      --glass-bg: rgba(255, 255, 255, 0.055);
+      --glass-bg-strong: rgba(255, 255, 255, 0.085);
+      --glass-border: rgba(255, 255, 255, 0.12);
+      --glass-highlight: rgba(255, 255, 255, 0.18);
+      --container: 1200px;
+      --radius-xl: 34px;
+      --radius-lg: 24px;
+      --radius-md: 18px;
+      --shadow-soft: 0 30px 100px rgba(0, 0, 0, .48);
+      --shadow-purple: 0 0 72px rgba(123, 47, 255, .34);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+      color: var(--branco);
+      background:
+        radial-gradient(circle at 15% 0%, rgba(168, 85, 247, .28), transparent 23rem),
+        radial-gradient(circle at 86% 0%, rgba(123, 47, 255, .32), transparent 24rem),
+        radial-gradient(circle at 78% 50%, rgba(61, 26, 140, .28), transparent 24rem),
+        linear-gradient(180deg, #07070d 0%, #0A0A12 44%, #050508 100%);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -3;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,.04));
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+      background:
+        linear-gradient(115deg, transparent 0%, rgba(123, 47, 255, .08) 38%, transparent 68%),
+        radial-gradient(circle at 50% 108%, rgba(123, 47, 255, .26), transparent 28rem);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(var(--container), calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .glass {
+      position: relative;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.09), rgba(255,255,255,.032));
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft), var(--shadow-purple);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      overflow: hidden;
+    }
+
+    .glass::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.16), transparent 32%, transparent 70%, rgba(168,85,247,.08)),
+        radial-gradient(circle at 50% 100%, rgba(168,85,247,.2), transparent 18rem);
+      pointer-events: none;
+    }
+
+    .glass > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(7, 7, 13, .62);
+      border-bottom: 1px solid rgba(255,255,255,.07);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+    }
+
+    .header-inner {
+      min-height: 72px;
+      display: grid;
+      grid-template-columns: 140px 1fr 170px;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo {
+      width: 112px;
+      filter: drop-shadow(0 0 18px rgba(123, 47, 255, .34));
+    }
+
+    .nav {
+      justify-self: center;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.045);
+      border: 1px solid rgba(255,255,255,.09);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+
+    .nav a {
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: rgba(255,255,255,.66);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: -.01em;
+      transition: color .2s ease, background .2s ease;
+    }
+
+    .nav a:hover {
+      color: var(--branco);
+      background: rgba(123,47,255,.22);
+    }
+
+    .header-action {
+      justify-self: end;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 20px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.13);
+      color: var(--branco);
+      background: linear-gradient(135deg, var(--roxo-principal), var(--roxo-claro));
+      box-shadow: 0 0 26px rgba(123,47,255,.42);
+      font-size: .8rem;
+      font-weight: 850;
+      letter-spacing: -.01em;
+      cursor: pointer;
+      transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 42px rgba(123,47,255,.58);
+      border-color: rgba(255,255,255,.22);
+    }
+
+    .btn-full {
+      width: 100%;
+    }
+
+    .hero {
+      position: relative;
+      padding: 78px 0 84px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: -120px;
+      width: 430px;
+      height: 430px;
+      border-radius: 50%;
+      pointer-events: none;
+      filter: blur(20px);
+      opacity: .72;
+    }
+
+    .hero::before {
+      left: -140px;
+      background: radial-gradient(circle, rgba(168,85,247,.54), transparent 62%);
+    }
+
+    .hero::after {
+      right: -140px;
+      background: radial-gradient(circle, rgba(123,47,255,.56), transparent 62%);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 790px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: clamp(2.15rem, 5.2vw, 4.15rem);
+      line-height: 1.02;
+      letter-spacing: -.062em;
+      font-weight: 860;
+    }
+
+    .accent {
+      color: var(--roxo-claro);
+      text-shadow: 0 0 26px rgba(168,85,247,.62);
+    }
+
+    .hero-text {
+      max-width: 690px;
+      margin: 18px auto 0;
+      color: rgba(255,255,255,.66);
+      font-size: clamp(.92rem, 1.5vw, 1.02rem);
+      line-height: 1.7;
+    }
+
+    .hero-offer {
+      width: fit-content;
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 26px auto 0;
+      padding: 10px 12px 10px 18px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.11);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 0 34px rgba(123,47,255,.22);
+    }
+
+    .hero-offer span {
+      color: rgba(255,255,255,.78);
+      font-size: .82rem;
+      font-weight: 750;
+    }
+
+    .hero-offer strong {
+      color: var(--amarelo-preco);
+      font-size: 1.1rem;
+      font-weight: 900;
+      letter-spacing: -.04em;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 22px;
+      flex-wrap: wrap;
+    }
+
+    .hero-showcase {
+      width: min(920px, 100%);
+      margin: 54px auto 0;
+      padding: 14px;
+      border-radius: 32px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.09), rgba(255,255,255,.028));
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow:
+        0 42px 120px rgba(0,0,0,.58),
+        0 0 62px rgba(123,47,255,.26);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+    }
+
+    .showcase-inner {
+      min-height: 350px;
+      border-radius: 24px;
+      background:
+        linear-gradient(180deg, rgba(5,5,12,.36), rgba(5,5,12,.92)),
+        radial-gradient(circle at 50% 32%, rgba(168,85,247,.48), transparent 10rem),
+        radial-gradient(circle at 50% 40%, rgba(123,47,255,.24), transparent 20rem),
+        #070711;
+      border: 1px solid rgba(255,255,255,.09);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .showcase-inner::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 48%;
+      width: 570px;
+      height: 570px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.1);
+      box-shadow:
+        0 0 0 56px rgba(255,255,255,.021),
+        0 0 0 118px rgba(255,255,255,.012),
+        0 0 94px rgba(168,85,247,.5);
+    }
+
+    .showcase-content {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      align-items: center;
+      gap: 24px;
+      padding: 32px;
+    }
+
+    .showcase-speed {
+      text-align: left;
+    }
+
+    .showcase-speed .num {
+      display: block;
+      font-size: clamp(5rem, 12vw, 9.2rem);
+      line-height: .78;
+      letter-spacing: -.11em;
+      font-weight: 930;
+    }
+
+    .showcase-speed .unit {
+      display: inline-flex;
+      margin-top: 12px;
+      padding: 8px 13px;
+      border-radius: 999px;
+      background: rgba(123,47,255,.45);
+      border: 1px solid rgba(255,255,255,.16);
+      font-size: .86rem;
+      font-weight: 880;
+    }
+
+    .showcase-lines {
+      display: grid;
+      gap: 14px;
+    }
+
+    .line-card {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 16px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.075);
+      border: 1px solid rgba(255,255,255,.1);
+      backdrop-filter: blur(16px);
+    }
+
+    .line-card strong {
+      font-size: .9rem;
+      font-weight: 820;
+    }
+
+    .line-card span {
+      color: rgba(255,255,255,.54);
+      font-size: .78rem;
+    }
+
+    .section {
+      padding: 86px 0;
+      position: relative;
+    }
+
+    .section-head {
+      max-width: 720px;
+      margin: 0 auto 38px;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: clamp(1.85rem, 3.9vw, 3.05rem);
+      line-height: 1.08;
+      letter-spacing: -.052em;
+      font-weight: 820;
+    }
+
+    .section-lead {
+      margin-top: 16px;
+      color: rgba(255,255,255,.66);
+      font-size: clamp(.92rem, 1.5vw, 1.02rem);
+      line-height: 1.7;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .feature-stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .feature-card {
+      min-height: 230px;
+      padding: 24px;
+      border-radius: 24px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.085), rgba(255,255,255,.028));
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 22px 80px rgba(0,0,0,.34);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .feature-card.large {
+      min-height: 478px;
+    }
+
+    .feature-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 50% 8%, rgba(168,85,247,.22), transparent 11rem),
+        linear-gradient(135deg, rgba(255,255,255,.13), transparent 38%);
+      pointer-events: none;
+    }
+
+    .feature-visual {
+      width: 100%;
+      height: 130px;
+      margin-bottom: 26px;
+      border-radius: 20px;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(255,255,255,.18), transparent 2.2rem),
+        radial-gradient(circle at 50% 50%, rgba(168,85,247,.58), transparent 7rem),
+        rgba(5,5,12,.52);
+      border: 1px solid rgba(255,255,255,.08);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .feature-card.large .feature-visual {
+      height: 260px;
+    }
+
+    .feature-visual::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 118px;
+      height: 118px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.14);
+      box-shadow:
+        0 0 0 28px rgba(168,85,247,.07),
+        0 0 46px rgba(168,85,247,.58);
+    }
+
+    .feature-visual::after {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      color: var(--branco);
+      font-size: 2.8rem;
+      font-weight: 900;
+      text-shadow: 0 0 30px rgba(168,85,247,.9);
+    }
+
+    .visual-play::after { content: "▶"; }
+    .visual-wifi::after { content: "⌁"; font-size: 3.25rem; }
+    .visual-tv::after { content: "▣"; }
+    .visual-support::after { content: "☎"; }
+
+    .feature-card h3,
+    .glass-card h3 {
+      font-size: 1rem;
+      line-height: 1.22;
+      letter-spacing: -.03em;
+      font-weight: 830;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    .feature-card p,
+    .glass-card p {
+      color: rgba(255,255,255,.63);
+      font-size: .88rem;
+      line-height: 1.55;
+      position: relative;
+    }
+
+    .plan-layout {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .plan-copy {
+      padding: 30px;
+    }
+
+    .plan-copy h2 {
+      font-size: clamp(1.65rem, 3.4vw, 2.75rem);
+      line-height: 1.08;
+      letter-spacing: -.052em;
+      font-weight: 830;
+      margin-bottom: 24px;
+    }
+
+    .plan-list {
+      list-style: none;
+      display: grid;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .plan-list li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      color: rgba(255,255,255,.7);
+      font-size: .92rem;
+    }
+
+    .plan-list li::before {
+      content: "✓";
+      flex: 0 0 22px;
+      width: 22px;
+      height: 22px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      background: rgba(74,222,128,.18);
+      border: 1px solid rgba(74,222,128,.28);
+      color: var(--verde-desconto);
+      font-size: .74rem;
+      font-weight: 900;
+      margin-top: 1px;
+    }
+
+    .price-panel {
+      padding: 24px;
+    }
+
+    .price-inner {
+      min-height: 100%;
+      display: grid;
+      gap: 14px;
+    }
+
+    .speed-panel,
+    .value-panel,
+    .mini-panel {
+      border-radius: 22px;
+      background: rgba(5,5,12,.58);
+      border: 1px solid rgba(255,255,255,.09);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.06);
+    }
+
+    .speed-panel {
+      min-height: 180px;
+      padding: 24px;
+      background:
+        radial-gradient(circle at 50% 55%, rgba(168,85,247,.25), transparent 10rem),
+        rgba(5,5,12,.58);
+    }
+
+    .speed-row {
+      display: flex;
+      align-items: flex-end;
+      gap: 12px;
+    }
+
+    .speed-number {
+      font-size: clamp(4.5rem, 8vw, 6.8rem);
+      line-height: .78;
+      letter-spacing: -.11em;
+      font-weight: 930;
+    }
+
+    .speed-unit {
+      margin-bottom: 7px;
+      display: inline-flex;
+      padding: 8px 13px;
+      border-radius: 999px;
+      background: rgba(123,47,255,.55);
+      border: 1px solid rgba(255,255,255,.15);
+      font-size: .85rem;
+      font-weight: 880;
+    }
+
+    .watch-pill {
+      width: fit-content;
+      display: inline-flex;
+      margin-top: 16px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      color: var(--verde-desconto);
+      background: rgba(74,222,128,.1);
+      border: 1px solid rgba(74,222,128,.24);
+      font-size: .8rem;
+      font-weight: 800;
+    }
+
+    .value-panel {
+      padding: 22px;
+      background:
+        radial-gradient(circle at 58% 44%, rgba(255,214,0,.11), transparent 11rem),
+        rgba(5,5,12,.58);
+    }
+
+    .price-label {
+      color: rgba(255,255,255,.68);
+      font-size: .82rem;
+      font-weight: 750;
+    }
+
+    .price-row {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .price-row .currency {
+      font-weight: 900;
+      font-size: 1rem;
+    }
+
+    .price-row .number {
+      color: var(--amarelo-preco);
+      font-size: clamp(3.2rem, 6vw, 4.85rem);
+      line-height: .9;
+      letter-spacing: -.08em;
+      font-weight: 930;
+    }
+
+    .price-row .cents {
+      color: var(--amarelo-preco);
+      font-size: 2rem;
+      font-weight: 900;
+    }
+
+    .price-row .month {
+      color: rgba(255,255,255,.68);
+      font-size: .9rem;
+      font-weight: 700;
+    }
+
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .mini-panel {
+      min-height: 86px;
+      padding: 14px;
+    }
+
+    .mini-panel strong {
+      display: block;
+      font-size: .95rem;
+      letter-spacing: -.03em;
+      margin-bottom: 8px;
+    }
+
+    .mini-panel span {
+      color: rgba(255,255,255,.58);
+      font-size: .74rem;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .glass-card {
+      min-height: 220px;
+      padding: 24px;
+      border-radius: 24px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.075), rgba(255,255,255,.026));
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 22px 80px rgba(0,0,0,.32);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .glass-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(168,85,247,.22), transparent 12rem),
+        linear-gradient(135deg, rgba(255,255,255,.11), transparent 40%);
+      pointer-events: none;
+    }
+
+    .chip {
+      width: fit-content;
+      margin-bottom: 22px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(123,47,255,.2);
+      border: 1px solid rgba(168,85,247,.22);
+      color: rgba(255,255,255,.76);
+      font-size: .74rem;
+      font-weight: 800;
+      position: relative;
+    }
+
+    .reviews-layout {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 22px;
+      align-items: center;
+    }
+
+    .reviews-copy h2 {
+      font-size: clamp(1.85rem, 3.8vw, 3.1rem);
+      line-height: 1.08;
+      letter-spacing: -.052em;
+      font-weight: 830;
+    }
+
+    .reviews-copy p {
+      margin-top: 16px;
+      color: rgba(255,255,255,.64);
+      font-size: .95rem;
+    }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .review {
+      padding: 18px;
+      border-radius: 20px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.028));
+      border: 1px solid rgba(255,255,255,.11);
+      box-shadow: 0 18px 64px rgba(0,0,0,.28);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+    }
+
+    .review-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .avatar {
+      width: 38px;
+      height: 38px;
+      flex: 0 0 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 13px;
+      background: linear-gradient(135deg, rgba(123,47,255,.95), rgba(168,85,247,.45));
+      box-shadow: 0 0 24px rgba(123,47,255,.3);
+      font-size: .86rem;
+      font-weight: 900;
+    }
+
+    .review-name {
+      color: var(--branco);
+      font-size: .9rem;
+      font-weight: 830;
+      line-height: 1.1;
+    }
+
+    .meta {
+      color: var(--cinza-info);
+      font-size: .73rem;
+    }
+
+    .stars {
+      color: var(--amarelo-preco);
+      font-size: .8rem;
+      margin: 5px 0;
+      letter-spacing: .04em;
+    }
+
+    .review p {
+      color: rgba(255,255,255,.63);
+      font-size: .83rem;
+      line-height: 1.5;
+    }
+
+    .about-layout {
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .about-text {
+      padding: 30px;
+    }
+
+    .about-text h2 {
+      font-size: clamp(1.75rem, 3.5vw, 2.9rem);
+      line-height: 1.08;
+      letter-spacing: -.052em;
+      font-weight: 830;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      color: rgba(255,255,255,.66);
+      font-size: .92rem;
+      line-height: 1.72;
+      margin-top: 16px;
+    }
+
+    .about-visual {
+      min-height: 430px;
+      border-radius: var(--radius-xl);
+      background:
+        linear-gradient(180deg, rgba(5,5,12,.18), rgba(5,5,12,.86)),
+        radial-gradient(circle at 50% 42%, rgba(168,85,247,.46), transparent 9rem),
+        radial-gradient(circle at 50% 46%, rgba(123,47,255,.24), transparent 19rem),
+        #070711;
+      border: 1px solid rgba(255,255,255,.1);
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .about-visual::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 440px;
+      height: 440px;
+      transform: translate(-50%, -50%);
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.1);
+      box-shadow:
+        0 0 0 42px rgba(255,255,255,.022),
+        0 0 0 88px rgba(255,255,255,.014),
+        0 0 88px rgba(168,85,247,.52);
+    }
+
+    .about-visual::after {
+      content: "X1";
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      color: rgba(255,255,255,.92);
+      font-size: clamp(4.8rem, 10vw, 8.2rem);
+      font-weight: 930;
+      letter-spacing: -.13em;
+      text-shadow: 0 0 42px rgba(168,85,247,.55);
+    }
+
+    .faq {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      margin-top: 12px;
+      padding: 20px 22px;
+      border-radius: 20px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.025));
+      border: 1px solid rgba(255,255,255,.1);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    .faq-q {
+      color: var(--branco);
+      font-size: .94rem;
+      font-weight: 830;
+      letter-spacing: -.02em;
+      margin-bottom: 6px;
+    }
+
+    .faq-a {
+      color: rgba(255,255,255,.64);
+      font-size: .9rem;
+      line-height: 1.62;
+    }
+
+    .final-panel {
+      display: grid;
+      grid-template-columns: 1fr .86fr;
+      gap: 18px;
+      align-items: center;
+      padding: 18px;
+    }
+
+    .final-copy {
+      min-height: 310px;
+      display: flex;
+      align-items: center;
+      padding: 30px;
+      border-radius: 26px;
+      background:
+        radial-gradient(circle at 14% 12%, rgba(123,47,255,.22), transparent 18rem),
+        rgba(5,5,12,.48);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+
+    .final-copy h2 {
+      font-size: clamp(1.75rem, 3.7vw, 3.05rem);
+      line-height: 1.08;
+      letter-spacing: -.052em;
+      font-weight: 830;
+    }
+
+    .form-card {
+      padding: 24px;
+      border-radius: 26px;
+      background: rgba(5,5,12,.56);
+      border: 1px solid rgba(255,255,255,.09);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    .field {
+      width: 100%;
+      min-height: 52px;
+      margin-bottom: 12px;
+      padding: 0 15px;
+      color: var(--branco);
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 15px;
+      outline: 0;
+      font-size: .9rem;
+    }
+
+    .field::placeholder {
+      color: rgba(255,255,255,.52);
+    }
+
+    .field:focus {
+      border-color: rgba(168,85,247,.6);
+      box-shadow: 0 0 0 4px rgba(123,47,255,.14);
+    }
+
+    .form-note {
+      color: var(--cinza-info);
+      font-size: .76rem;
+      line-height: 1.45;
+      margin-top: 10px;
+    }
+
+    .footer {
+      padding: 34px 0;
+      border-top: 1px solid rgba(255,255,255,.07);
+      color: var(--cinza-info);
+      background: rgba(0,0,0,.18);
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: .84rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a:hover {
+      color: var(--branco);
+    }
+
+
+    .no-break {
+      white-space: nowrap;
+    }
+
+    .floating-whatsapp {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 60;
+      width: 56px;
+      height: 56px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      color: #06140a;
+      background: linear-gradient(135deg, var(--verde-desconto), #22c55e);
+      border: 1px solid rgba(255,255,255,.22);
+      box-shadow: 0 0 34px rgba(74,222,128,.42);
+      font-size: 1.35rem;
+      font-weight: 900;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .floating-whatsapp:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 0 46px rgba(74,222,128,.58);
+    }
+
+    @media (max-width: 1024px) {
+      .header-inner {
+        grid-template-columns: 130px 1fr;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      .header-action {
+        justify-self: end;
+      }
+
+      .feature-grid,
+      .plan-layout,
+      .reviews-layout,
+      .about-layout,
+      .final-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .feature-card.large {
+        min-height: 360px;
+      }
+
+      .feature-card.large .feature-visual {
+        height: 170px;
+      }
+
+      .showcase-content {
+        grid-template-columns: 1fr;
+        align-items: end;
+      }
+
+      .showcase-lines {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .container {
+        width: min(100% - 28px, var(--container));
+      }
+
+      .header-inner {
+        min-height: 66px;
+        grid-template-columns: 104px 1fr;
+      }
+
+      .logo {
+        width: 96px;
+      }
+
+      .header .btn {
+        min-height: 40px;
+        padding: 0 12px;
+        font-size: .68rem;
+      }
+
+      .hero {
+        padding: 60px 0 66px;
+      }
+
+      .hero h1 {
+        font-size: 2.18rem;
+        letter-spacing: -.055em;
+      }
+
+      .hero-text br,
+      .section-lead br,
+      .about-text p br,
+      .faq-a br,
+      .final-copy h2 br {
+        display: none;
+      }
+
+      .hero-offer {
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 22px;
+        padding: 16px;
+      }
+
+      .hero-offer .btn {
+        width: 100%;
+      }
+
+      .hero-showcase {
+        margin-top: 42px;
+        border-radius: 26px;
+        padding: 10px;
+      }
+
+      .showcase-inner {
+        min-height: 460px;
+      }
+
+      .showcase-content {
+        padding: 20px;
+      }
+
+      .showcase-lines {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 66px 0;
+      }
+
+      .section-head {
+        margin-bottom: 30px;
+      }
+
+      .feature-card,
+      .feature-card.large {
+        min-height: auto;
+        padding: 20px;
+      }
+
+      .feature-visual,
+      .feature-card.large .feature-visual {
+        height: 142px;
+        margin-bottom: 22px;
+      }
+
+      .mini-grid,
+      .trust-grid,
+      .reviews-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .plan-copy,
+      .price-panel,
+      .about-text,
+      .final-copy,
+      .form-card {
+        padding: 22px;
+        border-radius: 24px;
+      }
+
+      .about-visual {
+        min-height: 310px;
+        border-radius: 24px;
+      }
+
+      .final-copy {
+        min-height: auto;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .floating-whatsapp {
+        width: 54px;
+        height: 54px;
+        right: 14px;
+        bottom: 14px;
+      }
+    }
+  </style>
+
+  <style>
+    /* AJUSTE V5 — Sessão 01 em grid 4 colunas uniforme */
+    #beneficios .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    #beneficios .feature-stack {
+      display: contents;
+    }
+
+    #beneficios .feature-card,
+    #beneficios .feature-card.large {
+      min-height: 330px;
+      height: 100%;
+      padding: 22px;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    #beneficios .feature-card.large .feature-visual,
+    #beneficios .feature-visual {
+      width: 100%;
+      height: 145px;
+      margin-bottom: 22px;
+      border-radius: 20px;
+      flex: 0 0 auto;
+    }
+
+    #beneficios .feature-card h3,
+    #beneficios .glass-card h3 {
+      font-size: 0.98rem;
+      line-height: 1.18;
+      margin-bottom: 10px;
+    }
+
+    #beneficios .feature-card p,
+    #beneficios .glass-card p {
+      font-size: 0.86rem;
+      line-height: 1.5;
+    }
+
+    #beneficios .feature-visual::before {
+      width: 104px;
+      height: 104px;
+      box-shadow:
+        0 0 0 24px rgba(168,85,247,.07),
+        0 0 44px rgba(168,85,247,.62);
+    }
+
+    #beneficios .feature-visual::after {
+      font-size: 2.65rem;
+    }
+
+    #beneficios .visual-wifi::after {
+      font-size: 3rem;
+    }
+
+    @media (max-width: 1024px) {
+      #beneficios .feature-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      #beneficios .feature-card,
+      #beneficios .feature-card.large {
+        min-height: 300px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      #beneficios .feature-grid {
+        grid-template-columns: 1fr;
+      }
+
+      #beneficios .feature-card,
+      #beneficios .feature-card.large {
+        min-height: auto;
+      }
+
+      #beneficios .feature-card.large .feature-visual,
+      #beneficios .feature-visual {
+        height: 140px;
+      }
+    }
+  </style>
+
+
+  <style>
+    /* AJUSTE V6 — peso tipográfico mais leve e destaques controlados */
+    body {
+      font-weight: 400;
+    }
+
+    .hero h1,
+    .section-title,
+    .plan-copy h2,
+    .reviews-copy h2,
+    .about-text h2,
+    .final-copy h2 {
+      font-weight: 650 !important;
+    }
+
+    .hero h1 {
+      letter-spacing: -0.045em !important;
+    }
+
+    .section-title,
+    .plan-copy h2,
+    .reviews-copy h2,
+    .about-text h2,
+    .final-copy h2 {
+      letter-spacing: -0.038em !important;
+    }
+
+    .accent {
+      color: var(--roxo-claro) !important;
+      font-weight: 800 !important;
+      text-shadow: 0 0 24px rgba(168,85,247,.58);
+    }
+
+    .hero-offer span,
+    .price-label,
+    .meta,
+    .form-note,
+    .section-lead,
+    .hero-text,
+    .feature-card p,
+    .glass-card p,
+    .review p,
+    .about-text p,
+    .faq-a,
+    .plan-list li {
+      font-weight: 400 !important;
+    }
+
+    .feature-card h3,
+    .glass-card h3,
+    .faq-q,
+    .review-name,
+    .mini-panel strong,
+    .line-card strong {
+      font-weight: 600 !important;
+    }
+
+    .chip,
+    .watch-pill,
+    .speed-unit,
+    .line-card span,
+    .mini-panel span {
+      font-weight: 500 !important;
+    }
+
+    .btn,
+    .header .btn,
+    .nav a {
+      font-weight: 650 !important;
+    }
+
+    .showcase-speed .num,
+    .speed-number,
+    .price-row .number {
+      font-weight: 760 !important;
+    }
+
+    .price-row .currency,
+    .price-row .cents,
+    .hero-offer strong {
+      font-weight: 760 !important;
+    }
+
+    .feature-card {
+      color: rgba(255,255,255,.92);
+    }
+
+    #beneficios .feature-card h3 {
+      color: rgba(255,255,255,.92);
+    }
+
+    #beneficios .feature-card p {
+      color: rgba(255,255,255,.62);
+    }
+  </style>
+
+
+<style>
+  /* AJUSTE V7 — substituir ícones por imagens na seção 01 */
+  #beneficios .feature-image {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-bottom: 22px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,.10);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.05),
+      0 18px 48px rgba(0,0,0,.26);
+    background: rgba(5,5,12,.42);
+  }
+
+  #beneficios .feature-card.large .feature-image {
+    height: 145px;
+  }
+
+  #beneficios .feature-visual {
+    display: none !important;
+  }
+
+  @media (max-width: 720px) {
+    #beneficios .feature-image,
+    #beneficios .feature-card.large .feature-image {
+      height: 140px;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V8 — background aplicado na hero */
+  .hero {
+    position: relative;
+    padding: 78px 0 84px;
+    text-align: center;
+    overflow: hidden;
+    background:
+      linear-gradient(180deg, rgba(7,7,13,.78) 0%, rgba(7,7,13,.58) 24%, rgba(7,7,13,.48) 60%, rgba(7,7,13,.78) 100%),
+      linear-gradient(90deg, rgba(6,6,12,.78) 0%, rgba(6,6,12,.20) 20%, rgba(6,6,12,.12) 50%, rgba(6,6,12,.20) 80%, rgba(6,6,12,.78) 100%),
+      url("assets/images/hero-background-legado.png") center center / cover no-repeat;
+    border-bottom: 1px solid rgba(255,255,255,.04);
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 50% 52%, rgba(123,47,255,.20), transparent 28rem),
+      linear-gradient(180deg, rgba(8,8,14,.12), transparent 20%, transparent 76%, rgba(8,8,14,.22));
+    z-index: 0;
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(10,10,18,.10) 0%, transparent 16%, transparent 84%, rgba(10,10,18,.36) 100%);
+    z-index: 0;
+  }
+
+  .hero-content,
+  .hero-showcase {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-content {
+    max-width: 860px;
+  }
+
+  .hero h1 {
+    text-shadow: 0 10px 36px rgba(0,0,0,.42);
+  }
+
+  .hero-text {
+    color: rgba(255,255,255,.80);
+    text-shadow: 0 6px 22px rgba(0,0,0,.45);
+  }
+
+  .hero-offer {
+    background: rgba(18,12,36,.54);
+    border: 1px solid rgba(255,255,255,.12);
+    box-shadow: 0 0 34px rgba(123,47,255,.18);
+  }
+
+  .hero-showcase {
+    background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+    box-shadow:
+      0 36px 110px rgba(0,0,0,.50),
+      0 0 54px rgba(123,47,255,.16);
+  }
+
+  .showcase-inner {
+    background:
+      linear-gradient(180deg, rgba(5,5,12,.52), rgba(5,5,12,.80)),
+      radial-gradient(circle at 50% 32%, rgba(168,85,247,.22), transparent 12rem),
+      rgba(7,7,17,.82);
+  }
+
+  @media (max-width: 720px) {
+    .hero {
+      padding: 60px 0 66px;
+      background-position: center top;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V9 — hero com texto à esquerda e imagem à direita */
+  .hero {
+    position: relative;
+    padding: 88px 0 84px;
+    text-align: left;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 12% 10%, rgba(123,47,255,.20), transparent 22rem),
+      radial-gradient(circle at 86% 12%, rgba(168,85,247,.18), transparent 20rem),
+      linear-gradient(180deg, rgba(7,7,13,.96) 0%, rgba(7,7,13,.92) 100%);
+    border-bottom: 1px solid rgba(255,255,255,.04);
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      linear-gradient(90deg, rgba(7,7,13,.92) 0%, rgba(7,7,13,.78) 32%, rgba(7,7,13,.34) 58%, rgba(7,7,13,.10) 72%, rgba(7,7,13,.34) 86%, rgba(7,7,13,.82) 100%);
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      radial-gradient(circle at 64% 52%, rgba(123,47,255,.18), transparent 22rem),
+      linear-gradient(180deg, rgba(0,0,0,.10) 0%, transparent 18%, transparent 82%, rgba(0,0,0,.22) 100%);
+  }
+
+  .hero-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: minmax(0, .88fr) minmax(420px, 1.12fr);
+    align-items: center;
+    gap: 26px;
+  }
+
+  .hero-content {
+    max-width: 620px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .hero h1 {
+    max-width: 620px;
+    margin: 0;
+    font-size: clamp(2.4rem, 5.2vw, 4.9rem);
+    line-height: .98;
+    letter-spacing: -0.05em;
+    font-weight: 650 !important;
+    text-shadow: 0 12px 34px rgba(0,0,0,.32);
+  }
+
+  .hero-text {
+    max-width: 590px;
+    margin: 20px 0 0;
+    color: rgba(255,255,255,.82);
+    font-size: clamp(.95rem, 1.45vw, 1.08rem);
+    line-height: 1.72;
+    text-shadow: 0 6px 22px rgba(0,0,0,.38);
+  }
+
+  .hero-offer {
+    margin: 26px 0 0;
+    width: fit-content;
+    max-width: 100%;
+    justify-content: flex-start;
+    background: rgba(18,12,36,.56);
+    border: 1px solid rgba(255,255,255,.12);
+    box-shadow: 0 0 34px rgba(123,47,255,.16);
+  }
+
+  .hero-actions {
+    justify-content: flex-start;
+    margin-top: 24px;
+  }
+
+  .hero-visual-wrap {
+    position: relative;
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .hero-visual-wrap::before {
+    content: "";
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    width: 88%;
+    height: 88%;
+    transform: translateY(-50%);
+    border-radius: 42px;
+    background:
+      radial-gradient(circle at 50% 50%, rgba(168,85,247,.26), transparent 38%),
+      radial-gradient(circle at 50% 50%, rgba(123,47,255,.18), transparent 58%);
+    filter: blur(22px);
+    pointer-events: none;
+  }
+
+  .hero-visual {
+    position: relative;
+    width: min(900px, 100%);
+    aspect-ratio: 16 / 9;
+    border-radius: 34px;
+    overflow: hidden;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.02));
+    border: 1px solid rgba(255,255,255,.10);
+    box-shadow:
+      0 38px 110px rgba(0,0,0,.48),
+      0 0 54px rgba(123,47,255,.14);
+  }
+
+  .hero-visual img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    filter: saturate(1.02) contrast(1.02);
+  }
+
+  .hero-visual::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background:
+      linear-gradient(90deg, rgba(7,7,13,.48) 0%, rgba(7,7,13,.12) 18%, rgba(7,7,13,0) 34%, rgba(7,7,13,0) 100%),
+      linear-gradient(180deg, rgba(7,7,13,.12) 0%, rgba(7,7,13,0) 26%, rgba(7,7,13,.16) 100%);
+  }
+
+  .hero-visual::after {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    z-index: 2;
+    pointer-events: none;
+    border-radius: 34px;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.05);
+    background:
+      linear-gradient(90deg, rgba(7,7,13,.95) 0%, rgba(7,7,13,.55) 14%, rgba(7,7,13,.06) 32%, rgba(7,7,13,0) 48%, rgba(7,7,13,.10) 100%);
+    mix-blend-mode: normal;
+  }
+
+  /* esconde o showcase antigo para evitar duplicação */
+  .hero-showcase {
+    display: none !important;
+  }
+
+  @media (max-width: 1080px) {
+    .hero-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+
+    .hero-content {
+      max-width: 760px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .hero h1,
+    .hero-text {
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .hero-offer {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-actions {
+      justify-content: center;
+    }
+
+    .hero-visual-wrap {
+      min-height: auto;
+      justify-content: center;
+    }
+
+    .hero-visual {
+      width: min(920px, 100%);
+    }
+
+    .hero-visual::after {
+      background:
+        linear-gradient(180deg, rgba(7,7,13,.24) 0%, rgba(7,7,13,.08) 20%, rgba(7,7,13,.14) 100%);
+    }
+  }
+
+  @media (max-width: 720px) {
+    .hero {
+      padding: 64px 0 62px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      line-height: 1.02;
+    }
+
+    .hero-text br {
+      display: none;
+    }
+
+    .hero-visual {
+      border-radius: 24px;
+    }
+
+    .hero-visual::after {
+      border-radius: 24px;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V10 — hero integrada ao fundo, com texto sobreposto */
+  .hero {
+    position: relative;
+    overflow: hidden;
+    padding: 96px 0 94px;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    background:
+      linear-gradient(90deg, rgba(5,6,12,.96) 0%, rgba(5,6,12,.92) 16%, rgba(5,6,12,.78) 34%, rgba(5,6,12,.34) 56%, rgba(5,6,12,.18) 70%, rgba(5,6,12,.46) 84%, rgba(5,6,12,.82) 100%),
+      linear-gradient(180deg, rgba(4,5,10,.82) 0%, rgba(4,5,10,.46) 22%, rgba(4,5,10,.28) 55%, rgba(4,5,10,.68) 100%),
+      url("assets/images/hero-x1-fibra.png") center center / cover no-repeat;
+    border-bottom: 1px solid rgba(255,255,255,.04);
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 18% 12%, rgba(123,47,255,.22), transparent 22rem),
+      radial-gradient(circle at 82% 16%, rgba(123,47,255,.10), transparent 18rem),
+      linear-gradient(180deg, rgba(7,7,13,.18) 0%, transparent 28%, transparent 76%, rgba(7,7,13,.36) 100%);
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(90deg, rgba(8,8,14,.98) 0%, rgba(8,8,14,.94) 10%, rgba(8,8,14,.84) 22%, rgba(8,8,14,.64) 34%, rgba(8,8,14,.24) 52%, rgba(8,8,14,0) 64%),
+      radial-gradient(circle at 50% 100%, rgba(123,47,255,.18), transparent 24rem);
+  }
+
+  .hero-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: minmax(0, 640px);
+    align-items: center;
+    min-height: 460px;
+  }
+
+  .hero-content {
+    max-width: 620px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .hero h1 {
+    max-width: 620px;
+    margin: 0;
+    font-size: clamp(2.7rem, 5.4vw, 5.25rem);
+    line-height: .96;
+    letter-spacing: -0.055em;
+    text-shadow: 0 12px 34px rgba(0,0,0,.42);
+  }
+
+  .hero-text {
+    max-width: 560px;
+    margin: 22px 0 0;
+    color: rgba(255,255,255,.84);
+    font-size: clamp(1rem, 1.5vw, 1.08rem);
+    line-height: 1.72;
+    text-shadow: 0 6px 22px rgba(0,0,0,.48);
+  }
+
+  .hero-offer {
+    margin: 28px 0 0;
+    width: fit-content;
+    max-width: 100%;
+    justify-content: flex-start;
+    background: rgba(20,13,38,.50);
+    border: 1px solid rgba(255,255,255,.12);
+    box-shadow: 0 0 34px rgba(123,47,255,.18);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .hero-actions {
+    justify-content: flex-start;
+    margin-top: 22px;
+  }
+
+  .hero .btn {
+    box-shadow: 0 0 34px rgba(123,47,255,.34);
+  }
+
+  .hero-visual-wrap,
+  .hero-visual,
+  .hero-showcase {
+    display: none !important;
+  }
+
+  @media (max-width: 1080px) {
+    .hero {
+      min-height: auto;
+      padding: 82px 0 78px;
+      background-position: 68% center;
+    }
+
+    .hero-grid {
+      grid-template-columns: 1fr;
+      min-height: auto;
+    }
+
+    .hero-content {
+      max-width: 720px;
+    }
+
+    .hero h1,
+    .hero-text {
+      max-width: 720px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .hero {
+      padding: 68px 0 64px;
+      min-height: auto;
+      background-position: 72% center;
+      background:
+        linear-gradient(180deg, rgba(5,6,12,.90) 0%, rgba(5,6,12,.72) 34%, rgba(5,6,12,.78) 100%),
+        linear-gradient(90deg, rgba(5,6,12,.90) 0%, rgba(5,6,12,.62) 46%, rgba(5,6,12,.34) 100%),
+        url("assets/images/hero-x1-fibra.png") 72% center / cover no-repeat;
+    }
+
+    .hero::after {
+      background:
+        linear-gradient(180deg, rgba(8,8,14,.70) 0%, rgba(8,8,14,.38) 34%, rgba(8,8,14,.72) 100%);
+    }
+
+    .hero-content {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .hero h1,
+    .hero-text {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-offer {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-actions {
+      justify-content: center;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V11 — área de conteúdo padrão em 1200px */
+  :root {
+    --container: 1200px;
+  }
+
+  .container {
+    width: min(1200px, calc(100% - 40px));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-grid,
+  .feature-grid,
+  .plan-layout,
+  .trust-grid,
+  .reviews-layout,
+  .about-layout,
+  .final-panel,
+  .footer-inner,
+  .header-inner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 720px) {
+    .container {
+      width: min(100% - 28px, 1200px);
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V12 — subtítulo da seção 01 em 2 linhas */
+  #beneficios .section-head {
+    max-width: 980px;
+  }
+
+  #beneficios .section-lead {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V14 — ícones brancos na seção "Internet regional..." */
+  .trust-grid .glass-card {
+    position: relative;
+  }
+
+  .trust-grid .chip {
+    margin-bottom: 18px;
+  }
+
+  .trust-grid .trust-icon-wrap {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.025));
+    border: 1px solid rgba(255,255,255,.09);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.05),
+      0 12px 34px rgba(0,0,0,.18),
+      0 0 22px rgba(123,47,255,.12);
+  }
+
+  .trust-grid .trust-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+    filter: brightness(0) invert(1);
+    opacity: .96;
+  }
+
+  .trust-grid .glass-card h3 {
+    margin-top: 0;
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V15 — remover numeração dos cards da seção */
+  .trust-grid .chip {
+    display: none !important;
+  }
+
+  .trust-grid .trust-icon-wrap {
+    margin-top: 2px;
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V16 — textos maiores + imagem gerada na seção sobre */
+
+  /* Subtexto da hero em 25px */
+  .hero-text {
+    font-size: 25px !important;
+    line-height: 1.55 !important;
+  }
+
+  /* Textos corridos do site em 18px */
+  .section-lead,
+  .feature-card p,
+  .glass-card p,
+  .plan-list li,
+  .reviews-copy p,
+  .review p,
+  .about-text p,
+  .faq-a,
+  .line-card span,
+  .mini-panel span,
+  .form-note,
+  .card-text {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Ajuste proporcional para títulos menores dos cards */
+  .feature-card h3,
+  .glass-card h3,
+  .faq-q,
+  .review-name,
+  .mini-panel strong,
+  .line-card strong {
+    font-size: 20px !important;
+    line-height: 1.25 !important;
+  }
+
+  /* Lista do plano com melhor leitura */
+  .plan-list {
+    gap: 16px !important;
+  }
+
+  .plan-list li::before {
+    margin-top: 3px !important;
+  }
+
+  /* Aplicar imagem gerada na seção do lado direito */
+  .about-visual {
+    min-height: 430px !important;
+    border-radius: var(--radius-xl) !important;
+    background:
+      linear-gradient(90deg, rgba(5,5,12,.22) 0%, rgba(5,5,12,.05) 42%, rgba(5,5,12,.20) 100%),
+      linear-gradient(180deg, rgba(5,5,12,.10) 0%, rgba(5,5,12,.22) 100%),
+      url("assets/images/sobre-x1-fibra.png") center center / cover no-repeat !important;
+    border: 1px solid rgba(255,255,255,.10) !important;
+    box-shadow:
+      0 30px 100px rgba(0,0,0,.42),
+      0 0 52px rgba(123,47,255,.18) !important;
+    overflow: hidden !important;
+  }
+
+  .about-visual::before {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    transform: none !important;
+    border: 0 !important;
+    border-radius: inherit !important;
+    box-shadow: none !important;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.06), transparent 34%),
+      radial-gradient(circle at 50% 48%, rgba(168,85,247,.16), transparent 18rem) !important;
+    pointer-events: none !important;
+  }
+
+  .about-visual::after {
+    display: none !important;
+  }
+
+  @media (max-width: 720px) {
+    .hero-text {
+      font-size: 19px !important;
+      line-height: 1.55 !important;
+    }
+
+    .section-lead,
+    .feature-card p,
+    .glass-card p,
+    .plan-list li,
+    .reviews-copy p,
+    .review p,
+    .about-text p,
+    .faq-a,
+    .line-card span,
+    .mini-panel span,
+    .form-note,
+    .card-text {
+      font-size: 16px !important;
+    }
+
+    .feature-card h3,
+    .glass-card h3,
+    .faq-q,
+    .review-name,
+    .mini-panel strong,
+    .line-card strong {
+      font-size: 18px !important;
+    }
+
+    .about-visual {
+      min-height: 320px !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V17 — menu de navegação mais visível */
+  .nav {
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.115), rgba(255,255,255,.045)) !important;
+    border: 1px solid rgba(255,255,255,.20) !important;
+    box-shadow:
+      0 14px 40px rgba(0,0,0,.32),
+      0 0 28px rgba(123,47,255,.18),
+      inset 0 1px 0 rgba(255,255,255,.08) !important;
+    padding: 7px !important;
+  }
+
+  .nav a {
+    color: rgba(255,255,255,.92) !important;
+    font-weight: 750 !important;
+    font-size: .82rem !important;
+    letter-spacing: -.01em !important;
+    padding: 10px 16px !important;
+    transition: all .22s ease !important;
+  }
+
+  .nav a:hover {
+    color: #FFFFFF !important;
+    background:
+      linear-gradient(135deg, rgba(123,47,255,.58), rgba(168,85,247,.38)) !important;
+    box-shadow: 0 0 22px rgba(123,47,255,.28) !important;
+  }
+
+  .nav a:first-child {
+    background:
+      linear-gradient(135deg, rgba(123,47,255,.42), rgba(168,85,247,.22)) !important;
+    color: #FFFFFF !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08) !important;
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V18 — ícones em roxo neon */
+  .trust-grid .trust-icon {
+    filter:
+      brightness(0) saturate(100%)
+      invert(49%) sepia(83%) saturate(2497%)
+      hue-rotate(234deg) brightness(103%) contrast(95%) !important;
+    opacity: 1 !important;
+    filter: brightness(0) saturate(100%) invert(49%) sepia(83%) saturate(2497%)
+      hue-rotate(234deg) brightness(103%) contrast(95%)
+      drop-shadow(0 0 10px rgba(168, 85, 247, .55))
+      drop-shadow(0 0 18px rgba(123, 47, 255, .35)) !important;
+  }
+
+  .trust-grid .trust-icon-wrap {
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)) !important;
+    border: 1px solid rgba(168, 85, 247, .20) !important;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.05),
+      0 12px 34px rgba(0,0,0,.18),
+      0 0 18px rgba(168, 85, 247, .12) !important;
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V19 — títulos dos boxes de diferenciais mais harmônicos */
+  .trust-grid .glass-card h3 {
+    font-size: 24px !important;
+    line-height: 1.22 !important;
+    font-weight: 650 !important;
+    letter-spacing: -0.035em !important;
+    color: rgba(255,255,255,.96) !important;
+    margin-bottom: 16px !important;
+  }
+
+  .trust-grid .glass-card p {
+    font-size: 18px !important;
+    line-height: 1.58 !important;
+  }
+
+  .trust-grid .glass-card {
+    padding-top: 30px !important;
+  }
+
+  @media (max-width: 720px) {
+    .trust-grid .glass-card h3 {
+      font-size: 22px !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V20 — CTAs padronizadas, hero maior e sessão regional com mais respiro */
+
+  /* Padrão visual de todos os botões CTA */
+  .btn {
+    min-height: 58px !important;
+    padding: 0 30px !important;
+    border-radius: 999px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+    font-weight: 750 !important;
+    text-transform: uppercase !important;
+    letter-spacing: -0.015em !important;
+    background: linear-gradient(135deg, #7B2FFF 0%, #A855F7 100%) !important;
+    box-shadow:
+      0 0 28px rgba(123,47,255,.42),
+      0 10px 34px rgba(0,0,0,.22) !important;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px) !important;
+    box-shadow:
+      0 0 44px rgba(123,47,255,.62),
+      0 14px 42px rgba(0,0,0,.28) !important;
+  }
+
+  /* CTA da hero maior e mais forte */
+  .hero .btn {
+    min-height: 68px !important;
+    padding: 0 40px !important;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    box-shadow:
+      0 0 42px rgba(123,47,255,.62),
+      0 14px 44px rgba(0,0,0,.30) !important;
+  }
+
+  /* Botão do header um pouco mais compacto para não pesar a navegação */
+  .header .btn {
+    min-height: 52px !important;
+    padding: 0 26px !important;
+    font-size: 14px !important;
+    font-weight: 750 !important;
+  }
+
+  /* Remover qualquer respiro deixado pelo texto acima da CTA na seção de avaliações */
+  .reviews-copy .hero-actions {
+    margin-top: 24px !important;
+  }
+
+  /* Sessão "Internet regional..." com mais espaçamento e leitura visual */
+  .trust-grid {
+    margin-top: 58px !important;
+  }
+
+  .trust-grid .glass-card {
+    padding-top: 36px !important;
+    padding-bottom: 34px !important;
+  }
+
+  .trust-grid .trust-icon-wrap {
+    margin-bottom: 24px !important;
+  }
+
+  @media (max-width: 720px) {
+    .btn {
+      width: 100% !important;
+      min-height: 56px !important;
+      padding: 0 22px !important;
+      font-size: 15px !important;
+    }
+
+    .hero .btn {
+      min-height: 62px !important;
+      font-size: 16px !important;
+    }
+
+    .header .btn {
+      width: auto !important;
+      min-height: 42px !important;
+      padding: 0 12px !important;
+      font-size: .68rem !important;
+    }
+
+    .trust-grid {
+      margin-top: 38px !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V21 — ícone flutuante trocado para WhatsApp */
+  .floating-whatsapp {
+    display: grid !important;
+    place-items: center !important;
+  }
+
+  .floating-whatsapp-icon {
+    width: 26px;
+    height: 26px;
+    display: block;
+    object-fit: contain;
+    filter: brightness(0) invert(0);
+  }
+
+  @media (max-width: 720px) {
+    .floating-whatsapp-icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V22 — WhatsApp flutuante mais chamativo + fade-in nas seções */
+
+  .floating-whatsapp {
+    width: 72px !important;
+    height: 72px !important;
+    right: 24px !important;
+    bottom: 24px !important;
+    background:
+      radial-gradient(circle at 35% 25%, rgba(255,255,255,.35), transparent 28%),
+      linear-gradient(135deg, #4ADE80 0%, #22C55E 100%) !important;
+    border: 2px solid rgba(255,255,255,.28) !important;
+    box-shadow:
+      0 0 0 8px rgba(74,222,128,.10),
+      0 0 32px rgba(74,222,128,.62),
+      0 18px 48px rgba(0,0,0,.36) !important;
+    animation: whatsappPulse 2.2s ease-in-out infinite;
+  }
+
+  .floating-whatsapp:hover {
+    transform: translateY(-4px) scale(1.06) !important;
+    box-shadow:
+      0 0 0 10px rgba(74,222,128,.14),
+      0 0 48px rgba(74,222,128,.78),
+      0 22px 58px rgba(0,0,0,.42) !important;
+  }
+
+  .floating-whatsapp-icon {
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  @keyframes whatsappPulse {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow:
+        0 0 0 8px rgba(74,222,128,.10),
+        0 0 32px rgba(74,222,128,.62),
+        0 18px 48px rgba(0,0,0,.36);
+    }
+
+    50% {
+      transform: scale(1.045);
+      box-shadow:
+        0 0 0 14px rgba(74,222,128,.06),
+        0 0 52px rgba(74,222,128,.82),
+        0 20px 56px rgba(0,0,0,.42);
+    }
+  }
+
+  /* Fade-in ao rolar */
+  .reveal-section {
+    opacity: 0;
+    transform: translateY(42px);
+    filter: blur(8px);
+    transition:
+      opacity .85s ease,
+      transform .85s ease,
+      filter .85s ease;
+    will-change: opacity, transform, filter;
+  }
+
+  .reveal-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .floating-whatsapp {
+      animation: none !important;
+    }
+
+    .reveal-section {
+      opacity: 1 !important;
+      transform: none !important;
+      filter: none !important;
+      transition: none !important;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .floating-whatsapp {
+      width: 64px !important;
+      height: 64px !important;
+      right: 16px !important;
+      bottom: 16px !important;
+    }
+
+    .floating-whatsapp-icon {
+      width: 30px !important;
+      height: 30px !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V23 — comportamento reversível do fade-in */
+  .reveal-section {
+    opacity: 0;
+    transform: translateY(42px);
+    filter: blur(8px);
+    transition:
+      opacity .85s ease,
+      transform .85s ease,
+      filter .85s ease;
+    will-change: opacity, transform, filter;
+  }
+
+  .reveal-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V24 — destaque amarelo no texto de reforço do plano */
+  .plan-highlight-text {
+    width: fit-content;
+    max-width: 100%;
+    margin: 34px auto 0 !important;
+    padding: 14px 22px;
+    border-radius: 999px;
+    color: #FFD600 !important;
+    font-size: 20px !important;
+    line-height: 1.35 !important;
+    font-weight: 700 !important;
+    text-align: center;
+    background:
+      radial-gradient(circle at 50% 50%, rgba(255,214,0,.12), transparent 70%),
+      rgba(255,214,0,.055);
+    border: 1px solid rgba(255,214,0,.26);
+    box-shadow:
+      0 0 28px rgba(255,214,0,.12),
+      inset 0 1px 0 rgba(255,255,255,.06);
+    text-shadow: 0 0 18px rgba(255,214,0,.18);
+  }
+
+  @media (max-width: 720px) {
+    .plan-highlight-text {
+      font-size: 17px !important;
+      padding: 13px 18px;
+      border-radius: 22px;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V25 — fade-in mais suave e mais rápido */
+  .reveal-section {
+    opacity: 0;
+    transform: translateY(24px) !important;
+    filter: blur(3px) !important;
+    transition:
+      opacity .55s ease,
+      transform .55s ease,
+      filter .55s ease !important;
+    will-change: opacity, transform, filter;
+  }
+
+  .reveal-section.is-visible {
+    opacity: 1;
+    transform: translateY(0) !important;
+    filter: blur(0) !important;
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V26 — entrelinhas menores nos blocos + background neon no site */
+
+  /* Blocos pequenos da seção do plano */
+  .mini-panel span,
+  .line-card span {
+    line-height: 1.22 !important;
+  }
+
+  .mini-panel,
+  .line-card {
+    gap: 8px !important;
+  }
+
+  /* Fundo geral do site da hero para baixo */
+  body {
+    background: #060611 !important;
+  }
+
+  main {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+  }
+
+  main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(6,6,17,.92) 0%, rgba(6,6,17,.86) 18%, rgba(6,6,17,.84) 40%, rgba(6,6,17,.90) 100%),
+      url("assets/images/background-site.png") center top / 100% auto repeat-y;
+    opacity: .52;
+  }
+
+  main::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 20% 16%, rgba(123,47,255,.10), transparent 22rem),
+      radial-gradient(circle at 78% 30%, rgba(168,85,247,.08), transparent 24rem),
+      linear-gradient(180deg, rgba(10,10,18,.18) 0%, rgba(10,10,18,.08) 22%, rgba(10,10,18,.12) 68%, rgba(10,10,18,.24) 100%);
+  }
+
+  /* Seções levemente integradas ao fundo */
+  main > section {
+    position: relative;
+    background-color: transparent !important;
+  }
+
+  /* Mantém a leitura forte na hero e integra o fundo */
+  .hero {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    background:
+      linear-gradient(90deg, rgba(8,8,14,.96) 0%, rgba(8,8,14,.84) 18%, rgba(8,8,14,.58) 34%, rgba(8,8,14,.24) 52%, rgba(8,8,14,.10) 68%, rgba(8,8,14,.32) 84%, rgba(8,8,14,.70) 100%),
+      radial-gradient(circle at 30% 60%, rgba(123,47,255,.12), transparent 18rem) !important;
+  }
+
+  /* Cards continuam legíveis sobre o novo fundo */
+  .feature-card,
+  .glass-card,
+  .plan-card,
+  .review,
+  .faq-item,
+  .final-card,
+  .about-text,
+  .about-visual,
+  .nav {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+
+  @media (max-width: 720px) {
+    main::before {
+      background:
+        linear-gradient(180deg, rgba(6,6,17,.92) 0%, rgba(6,6,17,.88) 26%, rgba(6,6,17,.90) 100%),
+        url("assets/images/background-site.png") center top / cover no-repeat;
+      opacity: .42;
+    }
+
+    .mini-panel span,
+    .line-card span {
+      line-height: 1.18 !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V27 — hero totalmente visível ao carregar + imagem aplicada no card */
+
+  /* Hero mais compacta e harmonizada para caber completa na primeira dobra */
+  .hero {
+    padding: 12px 0 36px !important;
+    min-height: calc(100vh - 82px) !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .hero-grid {
+    width: min(1200px, calc(100% - 40px)) !important;
+    min-height: calc(100vh - 130px) !important;
+    align-items: center !important;
+  }
+
+  .hero-content {
+    max-width: 640px !important;
+  }
+
+  .hero h1 {
+    max-width: 640px !important;
+    font-size: clamp(2.5rem, 4.85vw, 4.45rem) !important;
+    line-height: .98 !important;
+    letter-spacing: -0.055em !important;
+    margin-bottom: 0 !important;
+  }
+
+  .hero-text {
+    max-width: 610px !important;
+    margin-top: 16px !important;
+    font-size: 25px !important;
+    line-height: 1.36 !important;
+  }
+
+  .hero-offer {
+    margin-top: 18px !important;
+  }
+
+  .hero-actions {
+    margin-top: 18px !important;
+  }
+
+  /* Card da seção 01 com a nova imagem */
+  #beneficios .feature-card:nth-child(3) .feature-image {
+    object-position: center center !important;
+    height: 152px !important;
+  }
+
+  @media (max-width: 1180px) {
+    .hero {
+      min-height: auto !important;
+      padding: 20px 0 44px !important;
+    }
+
+    .hero-grid {
+      min-height: auto !important;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.35rem, 6vw, 4rem) !important;
+    }
+
+    .hero-text {
+      font-size: 22px !important;
+      line-height: 1.42 !important;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .hero {
+      padding: 16px 0 34px !important;
+      min-height: auto !important;
+    }
+
+    .hero-grid {
+      width: min(100% - 28px, 1200px) !important;
+      min-height: auto !important;
+    }
+
+    .hero-content {
+      max-width: 100% !important;
+    }
+
+    .hero h1 {
+      font-size: 2.48rem !important;
+      line-height: 1.01 !important;
+    }
+
+    .hero-text {
+      font-size: 18px !important;
+      line-height: 1.45 !important;
+    }
+
+    #beneficios .feature-card:nth-child(3) .feature-image {
+      height: 142px !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V28 — background neon mais visível e fixo ao fundo do site */
+  body {
+    background: #050510 !important;
+  }
+
+  main {
+    position: relative !important;
+    isolation: isolate !important;
+    overflow: visible !important;
+  }
+
+  /* fundo fixo para os elementos rolarem por cima */
+  main::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: -3 !important;
+    pointer-events: none !important;
+    background:
+      linear-gradient(180deg, rgba(5,5,16,.78) 0%, rgba(5,5,16,.70) 18%, rgba(5,5,16,.68) 42%, rgba(5,5,16,.76) 100%),
+      url("assets/images/background-site.png") center top / cover no-repeat !important;
+    opacity: .74 !important;
+    filter: saturate(1.08) brightness(1.05) !important;
+  }
+
+  main::after {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: -2 !important;
+    pointer-events: none !important;
+    background:
+      radial-gradient(circle at 22% 18%, rgba(123,47,255,.12), transparent 20rem),
+      radial-gradient(circle at 78% 28%, rgba(168,85,247,.10), transparent 24rem),
+      linear-gradient(180deg, rgba(4,4,12,.34) 0%, rgba(4,4,12,.14) 24%, rgba(4,4,12,.22) 68%, rgba(4,4,12,.34) 100%) !important;
+  }
+
+  /* elementos rolando por cima do background fixo */
+  header,
+  main > section,
+  footer {
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  /* cards e blocos um pouco mais translúcidos para integrar melhor ao fundo */
+  .feature-card,
+  .glass-card,
+  .plan-card,
+  .review,
+  .faq-item,
+  .about-text,
+  .about-visual,
+  .nav,
+  .hero-offer {
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+  }
+
+  @media (max-width: 720px) {
+    main::before {
+      opacity: .62 !important;
+      background-position: 68% top !important;
+      background-size: cover !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V29 — hero mais harmônica: headline, subheadline, CTA e espaçamentos */
+  .hero-content {
+    max-width: 620px !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.3rem, 4.35vw, 4rem) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.05em !important;
+    max-width: 620px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .hero-text {
+    font-size: 22px !important;
+    line-height: 1.5 !important;
+    max-width: 590px !important;
+    margin-top: 22px !important;
+  }
+
+  .hero-offer {
+    margin-top: 22px !important;
+    padding: 12px 18px !important;
+  }
+
+  .hero-actions {
+    margin-top: 24px !important;
+  }
+
+  .hero .btn {
+    min-height: 60px !important;
+    padding: 0 32px !important;
+    font-size: 16px !important;
+    box-shadow:
+      0 0 34px rgba(123,47,255,.52),
+      0 12px 34px rgba(0,0,0,.26) !important;
+  }
+
+  @media (max-width: 1180px) {
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.6rem) !important;
+      line-height: 1.03 !important;
+    }
+
+    .hero-text {
+      font-size: 20px !important;
+      line-height: 1.48 !important;
+      margin-top: 20px !important;
+    }
+
+    .hero-offer {
+      margin-top: 20px !important;
+    }
+
+    .hero-actions {
+      margin-top: 22px !important;
+    }
+
+    .hero .btn {
+      min-height: 58px !important;
+      padding: 0 28px !important;
+      font-size: 15px !important;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .hero-content {
+      max-width: 100% !important;
+    }
+
+    .hero h1 {
+      font-size: 2.1rem !important;
+      line-height: 1.04 !important;
+      max-width: 100% !important;
+    }
+
+    .hero-text {
+      font-size: 18px !important;
+      line-height: 1.5 !important;
+      max-width: 100% !important;
+      margin-top: 18px !important;
+    }
+
+    .hero-offer {
+      margin-top: 18px !important;
+      padding: 11px 16px !important;
+    }
+
+    .hero-actions {
+      margin-top: 20px !important;
+    }
+
+    .hero .btn {
+      min-height: 56px !important;
+      padding: 0 24px !important;
+      font-size: 15px !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V30 — mobile: organizar box da oferta da hero em linhas centralizadas */
+  @media (max-width: 720px) {
+    .hero-offer {
+      width: min(100%, 330px) !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding: 16px 18px !important;
+      border-radius: 22px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 8px !important;
+      text-align: center !important;
+    }
+
+    .hero-offer span,
+    .hero-offer strong {
+      display: block !important;
+      width: 100% !important;
+      text-align: center !important;
+      line-height: 1.3 !important;
+    }
+
+    .hero-offer span {
+      font-size: 14px !important;
+      color: rgba(255,255,255,.84) !important;
+    }
+
+    .hero-offer strong {
+      font-size: 18px !important;
+      color: var(--amarelo-preco) !important;
+    }
+  }
+</style>
+
+
+<style>
+  /* V4 — versão sem formulário, com CTA direto para o WhatsApp */
+  .final-cta-card {
+    display: flex;
+    min-height: 310px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .final-cta-card h3 {
+    font-size: clamp(1.35rem, 2.4vw, 2rem);
+    line-height: 1.15;
+    letter-spacing: -.035em;
+    font-weight: 650;
+  }
+
+  .final-cta-card p {
+    color: rgba(255,255,255,.66);
+    font-size: .94rem;
+    line-height: 1.65;
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 720px) {
+    .final-cta-card {
+      min-height: auto;
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V7 — destaque visual com desfoque de fundo nas descrições da seção Benefícios */
+  #beneficios .feature-card p {
+    margin-top: 10px;
+    padding: 14px 16px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(123,47,255,.24), rgba(168,85,247,.16));
+    border: 1px solid rgba(168,85,247,.24);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.06);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  @media (max-width: 720px) {
+    #beneficios .feature-card p {
+      padding: 13px 14px;
+      border-radius: 14px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  }
+</style>
+
+
+<style>
+  /* AJUSTE V8 — enquadramento uniforme das imagens e títulos mais compactos */
+  #beneficios .feature-image,
+  #beneficios .feature-card.large .feature-image {
+    height: 152px !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+  }
+
+  #beneficios .feature-card h3 {
+    line-height: 1.08 !important;
+  }
+
+  @media (max-width: 720px) {
+    #beneficios .feature-image,
+    #beneficios .feature-card.large .feature-image {
+      height: 142px !important;
+    }
+
+    #beneficios .feature-card h3 {
+      line-height: 1.1 !important;
+    }
+  }
+</style>
+
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QJHDW6P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#top" aria-label="X1 Fibra">
+        <img class="logo" src="assets/images/logo-x1-fibra.svg" alt="X1 Fibra">
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#plano">Plano</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="btn header-action" href="https://wa.me/558331429609?text=Ol%C3%A1%2C%20quero%20instalar%20a%20internet%20da%20X1%20Fibra." target="_blank" rel="noopener">
+        QUERO INSTALAR AGORA
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <h1>Sua internet trava bem na hora do filme, da série ou do <span class="accent">jogo?</span></h1>
+
+      <p class="hero-text">
+        Com a X1 Fibra, você tem 300 Mega de internet fibra +App canais de TV incluso para assistir,
+        navegar e curtir sua casa conectada com mais estabilidade.
+      </p>
+
+      <div class="hero-offer">
+        <span>300 Mega + Canais com filmes e séries</span>
+        <strong>por R$59,90/mês</strong>
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn" href="https://wa.me/558331429609?text=Ol%C3%A1%2C%20quero%20instalar%20a%20internet%20da%20X1%20Fibra." target="_blank" rel="noopener">
+          QUERO INSTALAR AGORA
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual-wrap">
+      <div class="hero-visual">
+        <img src="assets/images/hero-x1-fibra.png" alt="Pessoas assistindo jogo de futebol do Brasil em ambiente moderno">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="section" id="beneficios">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Tudo o que você quer <span class="accent">assistir</span> precisa de uma internet que acompanhe.</h2>
+          <p class="section-lead">
+            Filmes, séries, jogos, vídeos, chamadas, home office e redes sociais.<br>
+            Com a X1 Fibra, sua casa ganha uma conexão feita para o uso real do dia a dia.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card large">
+            <img class="feature-image" src="assets/images/streaming.png" alt="Streaming sem dor de cabeça">
+            <h3>Streaming sem dor<br>de cabeça</h3>
+            <p>
+              Mais estabilidade<br>
+              para assistir seus<br>
+              conteúdos favoritos.
+            </p>
+          </article>
+
+          <div class="feature-stack">
+            <article class="feature-card">
+              <img class="feature-image" src="assets/images/wifi-familia.png" alt="Wi-Fi para a família toda">
+              <h3>Wi-Fi para a família<br>toda</h3>
+              <p>
+                Conexão para celular,<br>
+                TV, notebook e outros<br>
+                dispositivos.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <img class="feature-image" src="assets/images/filmes-series-canais.png" alt="Filmes, séries e canais de TV">
+              <h3>Filmes, séries e<br>canais de TV</h3>
+              <p>
+                Mais entretenimento<br>
+                junto com seu plano<br>
+                de internet.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <img class="feature-image" src="assets/images/suporte-local.png" alt="Suporte local">
+              <h3>Suporte local</h3>
+              <p>
+                Atendimento próximo,<br>
+                humano e preparado<br>
+                para resolver rápido.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="plano">
+      <div class="container">
+        <div class="plan-layout">
+          <div class="glass plan-copy">
+            <h2>Um plano que entrega velocidade, estabilidade e <span class="accent">suporte</span></h2>
+
+            <ul class="plan-list">
+              <li>300 Mega de internet fibra</li>
+              <li>Canal Watch incluso</li>
+              <li>Suporte local</li>
+              <li>Instalação rápida conforme disponibilidade<br>técnica</li>
+              <li>Atendimento via WhatsApp</li>
+            </ul>
+
+            <a class="btn" href="https://wa.me/558331429609?text=Ol%C3%A1%2C%20quero%20contratar%20o%20plano%20300%20Mega%20da%20X1%20Fibra." target="_blank" rel="noopener">
+              Contrate agora
+            </a>
+          </div>
+
+          <aside class="glass price-panel">
+            <div class="price-inner">
+              <div class="speed-panel">
+                <div class="speed-row">
+                  <span class="speed-number">300</span>
+                  <span class="speed-unit">mb</span>
+                </div>
+                <span class="watch-pill">Watch incluso</span>
+              </div>
+
+              <div class="value-panel">
+                <div class="price-label">por</div>
+                <div class="price-row">
+                  <span class="currency">R$</span>
+                  <span class="number">59</span>
+                  <span class="cents">,90</span>
+                  <span class="month">/mês</span>
+                </div>
+              </div>
+
+              <div class="mini-grid">
+                <div class="mini-panel">
+                  <strong>Fibra</strong>
+                  <span>internet para o dia a dia</span>
+                </div>
+                <div class="mini-panel">
+                  <strong>Watch</strong>
+                  <span>canais com filmes e séries</span>
+                </div>
+                <div class="mini-panel">
+                  <strong>Local</strong>
+                  <span>atendimento próximo</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="section-head" style="margin-top: 28px; margin-bottom: 0;">
+          <p class="section-lead plan-highlight-text">
+            Feito para quem não quer perder tempo com internet travando.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Internet regional, atendimento humano e conexão de <span class="accent">verdade.</span></h2>
+        </div>
+
+        <div class="trust-grid">
+          <article class="glass-card">
+            <div class="chip">01</div>
+            <div class="trust-icon-wrap">
+              <img class="trust-icon" src="assets/images/icone-localizacao.svg" alt="Ícone de localização">
+            </div>
+            <h3>Provedor da Paraíba</h3>
+            <p>
+              Atuação regional em<br>
+              Santa Rita, João<br>
+              Pessoa e áreas de<br>
+              expansão.
+            </p>
+          </article>
+
+          <article class="glass-card">
+            <div class="chip">02</div>
+            <div class="trust-icon-wrap">
+              <img class="trust-icon" src="assets/images/icone-atendimento.svg" alt="Ícone de atendimento">
+            </div>
+            <h3>Atendimento mais<br>próximo</h3>
+            <p>
+              Você fala com uma<br>
+              equipe local, sem<br>
+              depender de atendimento<br>
+              distante e impessoal.
+            </p>
+          </article>
+
+          <article class="glass-card">
+            <div class="chip">03</div>
+            <div class="trust-icon-wrap">
+              <img class="trust-icon" src="assets/images/icone-conexao.svg" alt="Ícone de internet e conexão">
+            </div>
+            <h3>Plano com<br>entretenimento</h3>
+            <p>
+              Internet + Watch para<br>
+              deixar sua casa mais<br>
+              completa.
+            </p>
+          </article>
+
+          <article class="glass-card">
+            <div class="chip">04</div>
+            <div class="trust-icon-wrap">
+              <img class="trust-icon" src="assets/images/icone-instalacao.svg" alt="Ícone de instalação e agilidade">
+            </div>
+            <h3>Instalação com<br>agilidade</h3>
+            <p>
+              Processo pensado para<br>
+              colocar sua internet<br>
+              para funcionar rápido,<br>
+              conforme viabilidade<br>
+              técnica.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="avaliacoes">
+      <div class="container reviews-layout">
+        <div class="reviews-copy">
+          <h2>Clientes que confiam e <span class="accent">indicam</span></h2>
+          <div class="hero-actions" style="justify-content: flex-start;">
+            <a class="btn" href="https://wa.me/558331429609?text=Ol%C3%A1%2C%20quero%20levar%20300%20Mega%20%2B%20Watch%20incluso%20para%20minha%20casa." target="_blank" rel="noopener">
+              Leve 300 Mega + Watch incluso para sua casa
+            </a>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review">
+            <div class="review-head">
+              <div class="avatar">M</div>
+              <div>
+                <div class="review-name">Miguel e Bella</div>
+                <div class="meta">2 avaliações · 1 foto</div>
+              </div>
+            </div>
+            <div class="meta">um ano atrás</div>
+            <div class="stars">★★★★★</div>
+            <p>
+              Ótimo atendimento recomendo o rapaz bem atencioso<br>
+              e me tirou todas as dúvidas
+            </p>
+          </article>
+
+          <article class="review">
+            <div class="review-head">
+              <div class="avatar">S</div>
+              <div>
+                <div class="review-name">Sandreane Paulino</div>
+                <div class="meta">1 avaliação</div>
+              </div>
+            </div>
+            <div class="meta">um ano atrás</div>
+            <div class="stars">★★★★★</div>
+            <p>Ótimo atendimento e agilidade</p>
+          </article>
+
+          <article class="review">
+            <div class="review-head">
+              <div class="avatar">D</div>
+              <div>
+                <div class="review-name">Debora Aruanaa</div>
+                <div class="meta">4 avaliações</div>
+              </div>
+            </div>
+            <div class="meta">um ano atrás</div>
+            <div class="stars">★★★★★</div>
+            <p>Ótima super recomendo</p>
+          </article>
+
+          <article class="review">
+            <div class="review-head">
+              <div class="avatar">V</div>
+              <div>
+                <div class="review-name">Vivi Rodrigues</div>
+                <div class="meta">3 avaliações</div>
+              </div>
+            </div>
+            <div class="meta">um ano atrás</div>
+            <div class="stars">★★★★★</div>
+            <p>Ótimo atendimento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container about-layout">
+        <div class="glass about-text">
+          <h2>A melhor internet começa com quem entende de <span class="accent">conexão</span></h2>
+
+          <p>
+            A X1 Fibra nasceu para levar internet fibra de qualidade, estabilidade e<br>
+            atendimento humanizado para famílias e empresas da Paraíba.
+          </p>
+
+          <p>
+            Mais do que oferecer velocidade, a nossa missão é entregar uma conexão<br>
+            confiável para o que realmente faz parte da sua rotina: assistir filmes e<br>
+            séries, trabalhar, estudar, jogar, falar com quem importa e manter sua casa<br>
+            sempre conectada.
+          </p>
+
+          <p>
+            Com atuação regional e suporte próximo, a X1 combina tecnologia,<br>
+            agilidade e atendimento humano para resolver rápido e cuidar de cada<br>
+            cliente de perto.
+          </p>
+        </div>
+
+        <div class="about-visual" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq">
+        <div class="section-head">
+          <h2 class="section-title">Perguntas frequentes</h2>
+        </div>
+
+        <article class="faq-item">
+          <div class="faq-q">O plano tem Watch incluso?</div>
+          <p class="faq-a">
+            Sim, trabalhamos com o Plano 300 Mega com Watch incluso. Confirme os detalhes com o<br>
+            atendimento no momento da contratação.
+          </p>
+        </article>
+
+        <article class="faq-item">
+          <div class="faq-q">O valor é R$59,90 mesmo?</div>
+          <p class="faq-a">
+            O valor é R$59,90/mês pagando até o vencimento. A oferta pode depender de cobertura,<br>
+            disponibilidade e condições comerciais.
+          </p>
+        </article>
+
+        <article class="faq-item">
+          <div class="faq-q">A instalação é no mesmo dia?</div>
+          <p class="faq-a">
+            Sim, fazemos a instalação no mesmo dia, rápido e prático para que você não fique sem internet.
+          </p>
+        </article>
+
+        <article class="faq-item">
+          <div class="faq-q">Atende meu bairro?</div>
+          <p class="faq-a">
+            A disponibilidade depende da cobertura da X1. Entre em contato para saber mais.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container glass final-panel">
+        <div class="final-copy">
+          <h2>
+            Fale com a X1 Fibra agora, consulte a cobertura no<br>
+            seu bairro e veja as condições para instalar<br>
+            <span class="no-break">sua internet.</span>
+          </h2>
+        </div>
+
+        <div class="form-card final-cta-card">
+          <h3>Consulte agora a cobertura no seu endereço</h3>
+          <p>Fale diretamente com a equipe da X1 Fibra pelo WhatsApp e receba todas as informações para contratar o plano.</p>
+          <a class="btn btn-full" href="https://wa.me/558331429609?text=Ol%C3%A1%2C%20quero%20consultar%20a%20cobertura%20e%20contratar%20o%20plano%20da%20X1%20Fibra." target="_blank" rel="noopener">
+            FALAR NO WHATSAPP
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>X1 Fibra</span>
+      <div class="footer-links">
+        <a href="https://wa.me/558331429609" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="#">Política de Privacidade e LGPD</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/558331429609?text=Ol%C3%A1%2C%20quero%20instalar%20a%20internet%20da%20X1%20Fibra." target="_blank" rel="noopener" aria-label="Falar com a X1 Fibra no WhatsApp">
+    <img class="floating-whatsapp-icon" src="assets/images/icone-whatsapp.svg" alt="WhatsApp">
+  </a>
+<script>
+  // AJUSTE V23 — fade-in reversível conforme a rolagem
+  document.addEventListener("DOMContentLoaded", function () {
+    const revealItems = document.querySelectorAll("main > section");
+
+    revealItems.forEach((item) => {
+      item.classList.add("reveal-section");
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+        } else {
+          entry.target.classList.remove("is-visible");
+        }
+      });
+    }, {
+      threshold: 0.18,
+      rootMargin: "-40px 0px -80px 0px"
+    });
+
+    revealItems.forEach((item) => observer.observe(item));
+  });
+</script>
+
+
+</body>
+</html>

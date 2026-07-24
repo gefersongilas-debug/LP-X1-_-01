@@ -1,0 +1,8 @@
+X1 FIBRA — V05
+
+Para publicar, envie o conteúdo desta pasta para a pasta pública da hospedagem.
+Mantenha index.html e a pasta assets no mesmo nível.
+
+Antes da publicação, ajuste no index.html:
+1. WhatsApp oficial no lugar de 5500000000000.
+3. Valores pendentes e validação do selo “Mais escolhido”.
